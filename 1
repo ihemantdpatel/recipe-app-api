@@ -1,0 +1,10 @@
+alias c='clear'
+alias sshdev='ssh cd.local\\hpatel@aws-mtl-dev3.cloud.cd.local'
+alias sshba='ssh cd.local\\hpatel@aws-pdx-bastion.cloud.cd.local'
+alias composer="php /usr/local/bin/composer.phar"
+alias sshdev4='ssh cd.local\\hpatel@aws-mtl-dev4.cloud.cd.local'
+alias sshshop='ssh cd.local\\hpatel@aws-pdx-dev-shop.cloud.cd.local'
+
+alias da='docker compose exec app'
+alias dcr='docker-compose run --rm app'
+alias ccq='da php artisan cache:clear && da php artisan config:clear && da php artisan queue:restart'
